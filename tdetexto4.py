@@ -22,6 +22,7 @@ def read_input_file(filename):
 def execute_operations(operations):
     results = []
 
+
     for operation_code, set1, set2 in operations:
         if operation_code == 'U':
             result = set1.union(set2)
